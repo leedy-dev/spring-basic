@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.springframework.context.annotation.ComponentScan.Filter;
 
-public class ComponentFilterAppConfigTest {
+class ComponentFilterAppConfigTest {
 
     @Test
     void filterScan() {
@@ -43,7 +43,7 @@ public class ComponentFilterAppConfigTest {
      *
      * 4. REGEX: 정규 표현식
      * ex) org\.example\.Default.*
-     * 
+     *
      * 5. CUSTOM: TypeFilter 이라는 인터페이스를 구현해서 처리
      * ex) org.example.MyTypeFilter
      */
